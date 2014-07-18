@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="com.galih.voiceun.Utama"
+        config="layout-ldltr-sw320dp-w320dp-h533dp-normal-long-port-notnight-hdpi-finger-keyssoft-nokeys-navhidden-nonav-800x480-v19"
+        device="Nexus S"
+        devicestate="Portrait"
+        target="Android 4.4.2"
+        theme="@android:style/Theme" >
+    </preview>
+
+</previews>

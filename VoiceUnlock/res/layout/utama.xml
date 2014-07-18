@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#000fff"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:text="Unlock screen dengan suara"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="264dp"
+                android:layout_gravity="center"
+                android:editable="false"
+                android:ems="10"
+                android:gravity="center|left|fill"
+                android:scrollHorizontally="false"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+                android:text="Harap perhatikan hal-hal berikut:\n- Voice unlock mungkin tidak sekuat\n  pattern, password dan PIN.\n- Kondisi fisik user berpengaruh\n  terhadap suara yang dihasilkan.\n- Data suara untuk identifikasi    tersimpan didalam sistem."
+                android:textColor="#000000" >
+               
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:background="#000fff"/>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_Batal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:maxWidth="110dp"
+        android:onClick="onCancel"
+        android:text="Batal"
+        android:width="110dp" />
+
+    <Button
+        android:id="@+id/btn_Lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:maxWidth="110dp"
+        android:onClick="onLanjut"
+        android:text="Lanjutkan"
+        android:width="110dp" />
+
+</RelativeLayout>
+
+</LinearLayout>
